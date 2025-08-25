@@ -17,4 +17,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+         <properties>
+  <sonar.organization>malcolm-sonar</sonar.organization>
+</properties>
 </project>
