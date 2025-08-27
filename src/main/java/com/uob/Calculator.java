@@ -16,8 +16,8 @@ package com.uob;
 
 public class Calculator {
     public int divide(int a) {
-        int result = a / 0; // BUG: division by zero will always crash
-        return result;
+       int[] number = {1, 2, 3};
+        System.out.println(numbers[3]);
     }
 }
 
