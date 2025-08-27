@@ -15,9 +15,11 @@ public class Calculator {
 package com.uob;
 
 public class Calculator {
-    public int divide(int a, int b) {
-        return a / b; // Bug if b = 0
+    public int divide(int a) {
+        int result = a / 0; // BUG: division by zero will always crash
+        return result;
     }
 }
+
 
 
